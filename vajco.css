@@ -1,0 +1,415 @@
+html {
+scroll-behavior: smooth  ;
+transform-origin: 0 0;
+}
+
+
+/*vajco */
+.uvodnastrana {
+	color: #fff;
+	text-decoration: none;
+	font-size: 25px;
+	display: inline-block;
+	position: fixed;
+	z-index: 101;
+	
+}
+
+.uvodnastrana:visited,
+.uvodnastrana:link
+{
+	color: white;
+}
+.uvodnastrana:hover{
+	color: darkred;
+}
+.uvodnastrana:active{ /* hover a active , visited a link  */
+
+	color: yellow;
+}
+
+
+*{
+	margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+header{
+	background: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url("images/vajko.jpg");
+	background-size: cover;
+	height: 100vh;
+	background-attachment: fixed; /* obrazok sa nepohybuje */
+}
+.headertext{
+	position: absolute;
+	top: 50%;
+	left: 40%;
+	color: white;
+  }
+.headertext{
+text-transform: uppercase;
+font-size: 20px;
+letter-spacing: 1.5px;
+word-spacing: 3px;
+}
+
+
+
+.nav-bg{
+	width: 100%;
+	height: 58px;
+	background-color: rgba(0, 0, 0, 0.7);
+	position: fixed;
+	z-index: 50;
+	border-bottom: 2px solid #fff;
+	margin-top: 0px;
+
+}
+.mobile-nav-icon{
+	float: right;
+	margin-top: 3px;
+	display: none;
+}
+
+
+#scroll-nase-vajca{
+	padding-top: 45px;
+}
+/***** buttons ******/
+.button{
+	color: #fff;
+	text-decoration: none;
+	font-size: 20px;
+	border:1px solid #ff7c32 ;
+	border-radius: 10px;
+	display: block;
+	margin-top: 10px; /*neda sa davat lebo je to riadkovy element cize to musi byt inline block*/
+	padding: 5px 10px;
+	letter-spacing: 1px;
+}
+.button-full {
+	background: #dc4f00;
+
+}
+.button-full:hover,
+.button-full:active{
+	transition: background 0.5s; /* hover len casové rozmedzie mozem menit */
+	background: #a93d00;
+	border: 1px solid #a93d00;
+}
+.button-full:link,
+.button-full:visited{
+	background: #dc4f00;
+}
+
+.button-empty:link,
+.button-empty:visited{
+	background: transparent;
+}
+
+.button-empty:hover,
+.button-empty:active{
+	transition: background 0.5s;
+	background: #a93d00;
+	border: 1px solid #a93d00;
+}
+
+/***** logo  ****/
+.row{
+	max-width: 1140px;
+	margin: 0px auto;
+}
+#logo img{
+
+	max-width: 100px;
+	position: absolute;
+	top: 32%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	margin: 0px auto;
+}
+
+/*****navigacia******/
+nav ul {
+	float: right;/*nemozes to dat na li ale na ul*/
+	margin-top: 7px;
+    margin-right: 5px;
+    position: fixed;
+    z-index: 100 ; /* pri position vrstvy */
+    margin-left: 30%;
+
+}
+nav ul li {
+	display: inline-block;/* da veci za sebou*/
+	margin-left: 5px;
+	margin-right: 5px;
+
+}
+nav ul li a:hover{
+	transition: border-bottom 0.25s;
+	border-bottom: 2px solid #dc4f00;
+
+
+}
+
+
+nav ul li a{  
+	color: white;
+	font-size: 25px;
+	text-decoration: none;
+	transition: border-botton 2s;
+}
+/******about us******/
+.main h2{
+	text-align: center;
+	font-size: 30px;
+
+}
+
+.main h2:after{
+	display: block;
+	content: "";
+	width: 150px;
+	border-bottom: 2px solid #dc4f00;
+	margin: 20px auto;
+}
+
+.empty-space{
+	height: 50px;
+}
+/*****sliepka*****/
+.sliepka img{
+	width: 75%;
+	border-radius: 10px;
+	box-shadow: 7px 7px 7px #000;
+	margin-left: 12%;
+	margin-bottom: 5%;
+	
+}
+
+/*****vajcaaaaa*****/
+
+.oldegg{
+	width: 75%;
+	border-radius: 10px;
+	box-shadow: 4px 6px 10px black;
+	margin-left: -18px;
+}
+.vajca-info{  
+	width: 75%;
+	border-radius: 10px;
+	box-shadow: 7px 7px 7px #000;
+	margin-left: 7%
+}
+
+.textvajco{
+	margin-bottom: 20px;
+}
+
+.textvajco p {
+	margin-left: 60px;
+	font-size: 20px;
+}
+
+.textvajco div {
+	width: 50px;
+	height: 50px;
+	border: 2px solid black;
+	text-align: center;
+	border-radius: 50%;
+	padding: 12px;
+	float: left;
+}
+/* ********stplce****** */
+.stlpce {
+	margin-left: 15px;
+    margin: 0px auto;
+}
+.referencia{
+	background: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url("images/egg.png");
+	background-attachment: fixed;
+	background-position:center;
+
+}
+.referencia h2{
+	color: #fff;
+	padding-top: 5px;
+
+}
+.referencia h2:after{
+	border-bottom: 2px solid #fff;
+}
+/******referencia******/
+
+.one-reference {
+	color: white;
+	font-size: 20px;
+}
+
+.one-reference p {
+	font-style: italic;/*kurziva */
+}
+
+.foto{
+margin-top: 10px;
+margin-bottom: 30px;
+}
+.foto p {
+
+padding: 13px;
+margin-left: 60px;
+font-style: normal;
+
+}
+
+.foto img{
+	width: 100px;
+	border-radius: 50%;
+	float: left;
+}
+
+/****co o nas povedali nasi zakaznici***/
+.photoul img{
+width: 100%;
+height:300px;
+opacity: 0.5;
+transform: scale(1.15);/*obrazok sa zvacši*/
+}
+
+.photoul img:hover{
+transform: scale(1);
+opacity: 1;/*pruhlednost*/
+transition: transform 0.5s,opacity 0.5s;
+
+}
+.photoul li{
+	list-style-type: none;
+    background-color: #000;
+    overflow: hidden;/*to co pretieklo z obrazka*/
+    height: 300px;
+
+}
+
+div.photos.row{
+	max-width: 1100px;
+}
+.neger{
+	display: block;
+	text-align: center;
+	
+}
+/*contact form*/
+
+.contact{
+ max-width: 700px;
+ text-align: center;
+
+}
+
+.contact input{
+	width: 80%;
+	margin: 5px 0px;
+	padding: 7px ;
+	border: 2px solid black;
+	border-radius: 10px;
+	box-shadow: 5px  5px 5px gray;
+
+}
+.contact textarea{
+ width: 80%;
+ margin: 5px 0px;
+	padding: 7px ;
+	border: 2px solid black;
+	border-radius: 10px;
+	box-shadow: 5px 5px 5px gray;
+   font-family: arial;
+
+}
+.contact [type="submit"]
+{
+	background-color: #aa4309;
+	color: white;
+	font-size: 20px;
+
+}
+
+.contact [type="submit"]:hover{
+		transition: background-color 0.5s;
+	background-color: #d67e4d;
+	color: black;
+
+}
+
+/*footer */
+
+.footer-page{
+	background: #aa4309;
+	text-align: center;
+	margin-top: 30px;
+	color: white;
+	max-width: 1600px;
+
+
+}
+.social{
+ margin: 10px 0;
+}
+.social p {
+	display: inline-block ;
+	margin-right: 20px;
+}
+
+.social p a {
+ text-decoration: none;
+ color: white;
+ font-size: 25px;
+}
+
+.social p a:link,
+.social p a:visited  {
+text-decoration: none;
+color: white;
+font-size: 25px;
+}
+
+
+.social p a:hover,	
+.social p a:active{
+	color: black;
+}
+
+.footer-text{
+	margin: 10px 0;
+	text-align: center;
+}
+
+
+
+
+/*stop floating*/
+.clearfix {zoom: 1}
+.clearfix:after{
+	content: ".";
+	clear: both;
+	display: block;
+	height: 0;
+	visibility: hidden;
+
+
+}
+div.textvajco.clearfix
+{
+	margin-left:65px ;
+}
+
+.serus{
+   background-image: url();
+   background-size: cover;
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+
+ 
+
+}
+

@@ -1,0 +1,87 @@
+/*PROJEKT */
+
+input[type=submit]:hover {
+	background: whitesmoke;
+	color: wihte;
+	font-size: 20px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	font-weight: bold;
+}
+
+
+a{color: white;}
+
+html,body {
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+
+#container {
+	width: 1200px;
+	margin: 0px auto;
+}
+
+header{
+	background:#385898 ;
+}
+
+header h1{
+	color: white;
+	text-align: center;
+	margin-top: 0;
+}
+
+.facebook{
+	display: block;
+	margin: 0 auto;
+    width: 500px;
+}
+
+main h2{
+	text-align: center;
+	color:#385989 ;
+	font-size: 40px;
+	margin-bottom: 0px;
+}
+main p{
+	background: #385989;
+	color: white;
+	font-size: 20px;
+	padding: 10px 15px;
+}
+/* formular */
+form{
+	text-align: center;
+}
+form input{
+	margin-top: 20px;
+	border: 	2px solid #385989;
+	border-radius: 	10px;
+	height: 40px;
+	width: 	250px;
+
+}
+input[type=submit]{
+	background: #385989;
+	color: white;
+	font-size: 20px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+input[type=submit]:hover {
+	background: whitesmoke;
+	color: #385989;
+	font-size: 20px;
+	padding-top: 10px;
+	padding-bottom: 10px;	
+}
+ /* footer */
+ footer p {
+ 	background: #385898;
+ 	color: white;
+ 	font-size: 20px;
+ 	margin-bottom: 0px;
+ 	padding-left: 15px
+ }

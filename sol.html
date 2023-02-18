@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="sol.css">
+	<link rel="icon" type="images/png" href="images/sus.png">
+	<title>(ne)funkčný formulár</title>
+</head>
+<body>
+
+<header>
+	<a href="index.html" class="uvodnastrana">späť na  hlavnú stránku</a>
+
+	<form action="formular.php" method="post" class="box">
+
+   <!--   vypis tlačitiek pri spravnom vyplneni zelene tlacitko, pri zlom vyplneni cervene tlacitko
+
+     <?php
+        
+        if($_GET['success'] == 1) {
+        	echo "<div class=\"form-result success\">pohodička email došol</div>";
+        };
+
+         if($_GET['success'] == -1) {
+        	echo "<div class=\"form-result error\">chyba, skus znovu</div>";
+        };
+
+      ?>  -->
+
+		
+      <!--  <div class="form-result success">pohodička email došol</div>
+        <div class="form-result error"> chyba, skus znovu</div> -->
+
+		<h1>Kontakt</h1>
+
+		<input type="text" name="name" placeholder="Meno a priezvisko">
+		<input type="email"  name="email" placeholder="Email">
+		<textarea  name="message" cols="30" rows="10"></textarea>
+		<input type="submit"  value="odoslat">
+	</form>
+
+
+
+
+	 <div class="slider middle">
+
+	 			<div class="slides">
+	 				<input type="radio" name="r" id="r1" checked>
+	 				<input type="radio" name="r" id="r2">
+	 				<input type="radio" name="r" id="r3">
+
+
+	 				<div class="slide s1">
+	 					<img src="images/1.jpg">
+	 					<img src="images/2.jpg">
+	 					<img src="images/3.jpg">
+	 		
+
+	 				</div>
+
+	 			</div>
+
+	 </div>
+	
+ <div class="navigation">
+ 	  <label for="r1" class="bar"></label>
+ 	   <label for="r2" class="bar"></label>
+ 	    <label for="r3" class="bar"></label>
+ 	  
+
+ </div>
+
+</header>
+
+<main></main>
+<footer></footer>
+
+
+
+</body>
+</html>

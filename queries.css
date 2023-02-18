@@ -1,0 +1,153 @@
+
+/*fotogallery*/
+@media only screen and (max-width: 750px){
+
+     .photoul .col{
+   margin-left: 30px;
+    }
+
+	.photoul li{
+    width: 90%;
+    
+  }
+  .photo {
+  	margin: 5px 5px;
+}
+  }
+
+@media only screen and (max-width: 1150px){
+ .photo {
+  	margin-left: 5px;
+     margin-right: 5px;
+  }
+
+    .col.span-1-of-3.one-reference{
+     width: 48.5%;
+     margin-left: 10px;
+    }
+
+    .one-reference:nth-child(3){
+     display: none;
+  }
+
+  .stlpce p {margin-left: 10px;
+  }
+
+}
+
+@media only screen and (max-width: 1380px){
+#logo{margin: 0px auto;}
+
+
+nav ul li  {
+     display: block;
+ }
+
+ /*.nav-bg{display: none;}*/
+
+ .mobile-nav-back{
+   height: 185px;
+   position: fixed;
+   width:100%;
+   background-color: rgba(0, 0, 0, 0.9);
+   border-bottom: 2px solid #fff;
+   display: none;
+   z-index: 100;
+   right: 0%;
+ }
+
+
+.mobile-nav-icon{
+     display: inline-block;
+     z-index: 200;
+     position: fixed;
+     right: 2%;
+     top: 2%;
+}
+
+
+nav ul {
+     display: none;
+     z-index: 200;
+}
+
+nav ul li a:hover{
+     border-bottom: 2px solid transparent;
+
+
+  }
+}
+
+
+
+
+/* referencie a footer */
+@media only screen and (max-width: 685px){
+      .col.span-1-of-3.one-reference{
+     width: 96%;
+     margin-left: 10px;
+     margin-right: 10px;
+    }
+    .foto{
+     float: right;
+     margin-right: 20px;
+    }
+
+     .footer-page{
+          color: darkred;
+
+  }
+}
+
+
+
+ /* headeeeeeeeeeeeeeeeeeeer */
+@media only screen and (max-width: 730px){
+.headertext h1 {
+     text-align: center;
+     margin-right: 5%;
+
+ }
+
+.headertext {
+     width: 100%;
+     transform: translate(0%, 0%);
+     left: 0%;
+     }
+.button{
+     display: block;
+     text-align: center;
+     margin-left: 10px;
+     margin-right: 10px;
+}
+
+.button-empty:link,
+.button-empty:visited{
+     margin-left: 10px;
+  }
+}
+
+
+/* naseee vajcaaa */
+@media only screen and (max-width: 970px){
+     .vajca-info .span-1-of-2 {
+          width: 80%;
+     }
+     .vajca-info img{ 
+          margin-left: 80px;
+      }
+      .textvajco{
+          padding-top:12px ;
+      }
+
+}
+
+@media only screen and (max-width: 765px){
+
+     .textvajco  p {
+       padding-top: 0px;
+     }
+}
+
+
+
